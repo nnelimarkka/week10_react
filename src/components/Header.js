@@ -23,8 +23,8 @@ const Header = () => {
             <br />
             <Button color="inherit" component={RouterLink} to="/about">{t("about")}</Button>
             <Box style={{flexGrow: 1}}/>
-            <Button color="inherit" onClick={() => changeLanguage("fi")}>fi</Button>
-            <Button color="inherit" onClick={() => changeLanguage("en")}>en</Button>
+            <Button id="fi" color="inherit" onClick={() => changeLanguage("fi")}>fi</Button>
+            <Button id="en" color="inherit" onClick={() => changeLanguage("en")}>en</Button>
         </Toolbar>
       </AppBar>
     </Box>
